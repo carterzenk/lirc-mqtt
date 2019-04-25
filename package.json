@@ -1,0 +1,18 @@
+{
+  "name": "lirc-mqtt",
+  "version": "0.0.1",
+  "description": "Sends and receives IR commands over MQTT.",
+  "main": "index.js",
+  "author": "Carter Zenk",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "homie-device": "carterzenk/homie-device",
+    "js-yaml": "^3.13.1",
+    "lirc-client": "^2.0.0",
+    "lodash.merge": "^4.6.1",
+    "winston": "^3.2.1"
+  }
+}

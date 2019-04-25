@@ -1,0 +1,15 @@
+homie:
+  device_name: LIRC
+  device_id: "lirc"
+
+mqtt:
+  host: localhost
+  port: 1883
+  base_topic: homie/
+  auth: false
+
+lirc:
+  path: /var/run/lirc/lircd
+
+logger:
+  level: info
